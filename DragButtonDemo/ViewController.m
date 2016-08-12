@@ -37,7 +37,11 @@
     [self.view addSubview:btn1];
     [btn1 addTarget:self action:@selector(showTag:) forControlEvents:UIControlEventTouchUpInside];
 }
-
+/**
+ *  button的流水布局
+ *
+ *  @param sender 可以来回拖动button实现位置的变化
+ */
 -(void)showTag:(UIButton *)sender
 {
     NSLog(@"button.tag >> %@",@(sender.tag));
