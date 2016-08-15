@@ -52,7 +52,13 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
-
+/**
+ *  通知的布局
+ *
+ *  @param interfaceOrientation <#interfaceOrientation description#>
+ *
+ *  @return <#return value description#>
+ */
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
