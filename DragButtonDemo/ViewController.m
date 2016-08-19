@@ -14,7 +14,9 @@
 @end
 
 @implementation ViewController
-
+/**
+ *  就是这样做项目的
+ */
 - (void)viewDidLoad
 {
     [super viewDidLoad];
